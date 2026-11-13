@@ -21,10 +21,14 @@ Takes a video from niche to upload in one repeatable workflow:
 
 Claude runs every step — niche, script, video prompts, voiceover, edit/stitch, thumbnail, title/description/hashtags, upload checklist, analytics review and the monetization tracker. The owner is involved only at two points: (1) channel / Google account setup (pick the Google account, create the channel, choose name/handle, complete any Google sign-in or OAuth on their own device), and (2) approval of the exact final video, title, description, hashtags and thumbnail before upload. The two device-bound exceptions are the video clips (Claude writes the Flow-ready prompts; the owner generates the clips in Flow, because video generation is region-unavailable on the owner's Muse account) and the upload sign-in itself (on the owner's own device). Everything else is Claude's work — do not hand it back to the owner as homework.
 
-## The channel (status: not created yet)
+## The channel
 
-- **Channel:** does NOT exist yet. Google account and channel name/handle are still to be chosen.
-- **Suggested names:** Bunny Sounds, What Sound Is That?, Little Bunny Tunes, Tiny Sounds Club.
+- **Channel:** Bunny Sounds
+- **Handle:** @BunnySoundsKids (https://www.youtube.com/@BunnySoundsKids)
+- **Google account:** asjadfarooqch@gmail.com
+- **Location:** United States
+- **Language:** English
+- **Created:** Nov 13, 2026
 - **Format:** "What sound does it make?" — interactive guessing format. 18-30 scenes x ~10 seconds, 3-5 minutes total, bunny host, animals / vehicles / instruments, a 2-second pause before revealing each sound, seamless-loop finale.
 - **Ratio:** 16:9 horizontal landscape, 1280x720, for YouTube long-form videos.
 - **Style:** soft 2D storybook cartoon — warm sunlight, painterly backgrounds, big expressive eyes, gentle soft colors. Dialogue brief and simple.
