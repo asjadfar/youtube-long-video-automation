@@ -1,6 +1,6 @@
 ---
 name: youtube-long-video-automation
-description: End-to-end YouTube long-video automation for a nursery-rhyme channel in the "What sound does it make?" format — Claude handles all the work end to end (niche/trend check, 18-30-scene script for a 3-5 minute video, Flow-ready visual-only prompts, voiceover script, ffmpeg stitch to 1280x720 horizontal, thumbnail, title/description/hashtags, upload checklist with approval gate, and analytics review), with the owner involved only for approval at the upload step and for channel/Google account setup. Includes a monetization plan for the YouTube Partner Program (1,000 subscribers + 4,000 public watch hours) with a progress tracker. Use when the user asks to make, plan, edit, or upload a YouTube video, especially a nursery-rhyme / kids' guessing-format video.
+description: End-to-end YouTube long-video automation for a nursery-rhyme and learning channel in the "What sound does it make?" format — Claude handles all the work end to end (niche/trend check, 18-30-scene script for a 3-5 minute video, Flow-ready visual-only prompts, voiceover script, ffmpeg stitch to 1280x720 horizontal, thumbnail, title/description/hashtags, upload checklist with approval gate, and analytics review), with the owner involved only for approval at the upload step and for channel/Google account setup. The channel is NOT rhymes only: every video also teaches something (sounds, animals, colors, numbers, letters, vehicles, instruments). Bunny and his friends stay the same characters in every episode — see Character lock. Includes a monetization plan for the YouTube Partner Program (1,000 subscribers + 4,000 public watch hours) with a progress tracker. Use when the user asks to make, plan, edit, or upload a YouTube video, especially a nursery-rhyme / kids' learning video.
 ---
 
 # YouTube Long-Video Automation
@@ -27,10 +27,19 @@ Everything else — research, writing, prompts, voiceover script, stitching, thu
 
 ## Channel facts (do not invent others)
 
-- Channel does NOT exist yet. Google account and channel name/handle are still to be chosen. Suggested names: Bunny Sounds, What Sound Is That?, Little Bunny Tunes, Tiny Sounds Club.
+- Channel: Bunny Sounds, handle @BunnySoundsKids (https://www.youtube.com/@BunnySoundsKids), Google account asjadfarooqch@gmail.com, location United States, language English, created Nov 13, 2026.
+- Content: nursery rhymes AND learning — not rhymes only. Every video teaches something while it entertains: animal sounds, vehicle sounds, instrument sounds, colors, numbers, letters, animal names. Each episode names its learning goal in the script (for example "learn 6 animal sounds" or "learn colors with Bunny and friends").
 - Format: "What sound does it make?" — 18-30 scenes x ~10 seconds, 3-5 minutes total, bunny host, animals / vehicles / instruments, 2-second pause before revealing each sound, seamless-loop finale.
 - Ratio: 16:9 horizontal landscape, 1280x720, for YouTube long-form videos.
 - Style: soft 2D storybook cartoon — warm sunlight, painterly backgrounds, big expressive eyes, gentle soft colors. Dialogue brief and simple.
+
+## Character lock — Bunny and friends stay constant
+
+The same characters appear in every episode. Never redesign them, never swap them for new characters, and never change their look:
+
+- **Bunny (host):** cute fluffy white bunny, long ears with pink insides, small blue bow on one ear, big brown expressive eyes, pink nose, rosy cheeks, happy smile. Reference: the channel profile picture and banner.
+- **Friends (always the same six):** black-and-white cow with a red collar and bell, friendly lion with a brown mane, small grey elephant with pink ears, brown-and-white dog with a red collar, yellow duck/chick, pink pig. Reference: the channel banner.
+- Every visual prompt must name the exact same characters with the exact same description above, so Flow keeps them on-model across episodes. Check each generated frame: if Bunny's bow, ears or colors changed, or a friend looks different, say so plainly and regenerate — do not ship a changed character. New animals/objects may appear as guessing items in an episode, but the host and the six friends never change.
 
 ## Hard limits — state them honestly, do not work around them
 
@@ -45,7 +54,7 @@ Everything else — research, writing, prompts, voiceover script, stitching, thu
 
 ### Step 1 — Niche / trend check
 
-1. Confirm the episode topic fits the channel: animals, vehicles, or instruments a young child knows.
+1. Confirm the episode topic fits the channel: animals, vehicles, or instruments a young child knows — and state the learning goal of the episode in one line (what the child learns: sounds, colors, numbers, letters, animal names). An episode with no learning goal is not ready.
 2. Check what is trending in the target audience (USA) right now — search the web / news for the topic, do not guess from training data.
 3. Keep the topic evergreen if no trend fits: a cow, lion, car and drum will work any week; a fad will not.
 4. Pick 16-28 guessing items for the episode (one per middle scene), plus the bunny host and the finale, to reach 3-5 minutes total. Group them into rounds to keep the video varied, for example Round 1: Animals, Round 2: Vehicles, Round 3: Instruments, then a mixed final round. Do not use fewer than 16 items — the video must be 3-5 minutes long, not 1 minute.
