@@ -29,6 +29,7 @@ Claude runs every step — niche, script, video prompts, voiceover, edit/stitch,
 - **Location:** United States
 - **Language:** English
 - **Created:** Nov 13, 2026
+- **Content:** nursery rhymes and learning — not rhymes only — and Bunny and his friends stay the same characters in every episode.
 - **Format:** "What sound does it make?" — interactive guessing format. 18-30 scenes x ~10 seconds, 3-5 minutes total, bunny host, animals / vehicles / instruments, a 2-second pause before revealing each sound, seamless-loop finale.
 - **Ratio:** 16:9 horizontal landscape, 1280x720, for YouTube long-form videos.
 - **Style:** soft 2D storybook cartoon — warm sunlight, painterly backgrounds, big expressive eyes, gentle soft colors. Dialogue brief and simple.
